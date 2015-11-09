@@ -7,7 +7,7 @@ public class Customer {
 	private long pNr;
 	private ArrayList<SavingsAccount> accounts;
 
-	private Customer(String name, long pNr) {
+	public Customer(String name, long pNr) {
 		this.name = name;
 		this.pNr = pNr;
 		this.accounts = new ArrayList<>();
